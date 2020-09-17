@@ -3,7 +3,7 @@
 
 # 效果图
 - 首页展示
-![alt](http://www.janti.cn/upload/2018/05/q2v7ug8ml6isgp93lhij8pvqlt.png)
+![alt](http://www.zbpaoapo.cn/page/1)
 
 ## 功能需求
 ### 界面需求
@@ -30,22 +30,15 @@
 运行环境|阿里云Centos7
 
 # 开发知识点学习
-- [springboot常用注解](http://www.janti.cn/article/springbootzhujie) 
-- [srpingboot整合mybatis](http://www.janti.cn/article/springboot-mybaits)
-- [springboot之邮件的发送](http://www.janti.cn/article/springbootmail)
-- [springboot之thymeleaf的使用](http://www.janti.cn/article/springbootthymeleaf)
-- [springboot之定时任务](http://www.janti.cn/article/springbootscheduletask)
-- [springboot之netty的使用](http://www.janti.cn/article/springbootpackage)
-- [springboot之redis的整合与使用](http://www.janti.cn/article/springbootredis)
 
 - **以上是我学习springboot总结的一些博客，特此分享**
 
 # 网站地址
   百度(httP://www.baidu.com)
   
-  **[www.janti.cn](http://www.janti.cn)**
+  **[www.janti.cn](http://www.zbpaoapo.cn/)**
 
-  **[项目代码](https://github.com/JayTange/Jantent)**
+  **[项目代码](https://github.com/paopaosecret/xbingblog)**
   
 #笔记
  ##20180625
