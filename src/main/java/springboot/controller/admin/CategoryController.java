@@ -21,8 +21,6 @@ import java.util.List;
 /**
  * 分类标签管理
  *
- * @author tangj
- * @date 2018/1/31 22:56
  */
 @Controller
 @RequestMapping("admin/category")

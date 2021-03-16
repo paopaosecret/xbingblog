@@ -17,8 +17,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * @author tangj
- * @date 2018/1/21 22:27
+ * 拦截器
  */
 @Component
 public class BaseInterceptor implements HandlerInterceptor {

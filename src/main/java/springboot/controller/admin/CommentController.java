@@ -25,8 +25,6 @@ import javax.servlet.http.HttpServletRequest;
 /**
  * 评论模块
  *
- * @author tangj
- * @date 2018/1/27 17:05
  */
 @Controller
 @RequestMapping("admin/comments")

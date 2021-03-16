@@ -61,6 +61,7 @@ springboot\util\backup\db\DataTable.class
 springboot\modal\bo\CommentBo.class
 springboot\modal\vo\ContentVoExample$GeneratedCriteria.class
 springboot\modal\bo\RestResponseBo.class
+springboot\controller\api\ApiController.class
 springboot\ResultVo\ResponseVo.class
 springboot\modal\bo\StaticticsBo.class
 springboot\modal\vo\UserVo.class

@@ -31,8 +31,6 @@ import java.util.List;
 /**
  * 管理页面首页管理
  *
- * @author tangj
- * @date 2018/1/23 11:39
  */
 @Controller("adminIndexController")
 @RequestMapping("/admin")

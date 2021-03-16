@@ -28,8 +28,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * @author tangj
- * @date 2018/2/1 21:43
+ * 设置页面
  */
 @Controller
 @RequestMapping("/admin/setting")

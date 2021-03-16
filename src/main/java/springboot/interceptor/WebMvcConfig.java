@@ -9,8 +9,7 @@ import springboot.util.MyUtils;
 import javax.annotation.Resource;
 
 /**
- * @author tangj
- * @date 2018/1/22 20:50
+ * 统一配置
  */
 @Component
 public class WebMvcConfig extends WebMvcConfigurerAdapter{

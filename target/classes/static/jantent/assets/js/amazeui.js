@@ -208,8 +208,8 @@ UI.utils.parseOptions = UI.utils.options = function(string) {
   if (start != -1) {
     try {
       options = (new Function('',
-        'var json = ' + string.substr(start) +
-        '; return JSON.parse(JSON.stringify(json));'))();
+        'var api = ' + string.substr(start) +
+        '; return JSON.parse(JSON.stringify(api));'))();
     } catch (e) {
     }
   }

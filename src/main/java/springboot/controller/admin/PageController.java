@@ -25,8 +25,6 @@ import javax.servlet.http.HttpServletRequest;
 /**
  * 页面管理
  *
- * @author tangj
- * @date 2018/1/27 14:43
  */
 @Controller
 @RequestMapping("admin/page")

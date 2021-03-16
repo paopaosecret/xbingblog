@@ -26,9 +26,6 @@ import java.io.IOException;
 
 /**
  * 登录控制
- *
- * @author tangj
- * @date 2018/1/21 14:07
  */
 @Controller
 @RequestMapping("/admin")

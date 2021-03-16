@@ -36,9 +36,9 @@ public class HttpJsonRequestEncoder extends AbstractHttpJsonEncoder<HttpJsonRequ
                     "ISO-8859-1,utf-8;q=0.7,*;q=0.7");
             headers.set(HttpHeaderNames.ACCEPT_LANGUAGE, "zh");
             headers.set(HttpHeaderNames.USER_AGENT,
-                    "Netty json Http Client side");
+                    "Netty api Http Client side");
             headers.set(HttpHeaderNames.ACCEPT,
-                    "text/html,application/json;q=0.9,*/*;q=0.8");
+                    "text/html,application/api;q=0.9,*/*;q=0.8");
         }
         HttpUtil.setContentLength(request, body.readableBytes());
         // (3) 编码后的对象

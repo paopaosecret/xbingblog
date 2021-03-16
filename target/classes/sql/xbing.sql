@@ -131,4 +131,4 @@ CREATE TABLE `t_users` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 INSERT INTO `t_users` (`uid`, `username`, `password`, `email`, `home_url`, `screen_name`, `created`, `activated`, `logged`, `group_name`)
-VALUES(1, 'admin', 'a66abb5684c45962d887564f08346e8d', '179131961@qq.com', NULL, 'admin', 1, 0, 0, 'visitor');
+VALUES(1, 'admin', 'a66abb5684c45962d8875show64f08346e8d', '179131961@qq.com', NULL, 'admin', 1, 0, 0, 'visitor');

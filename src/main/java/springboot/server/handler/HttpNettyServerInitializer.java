@@ -30,10 +30,10 @@ public class HttpNettyServerInitializer extends ChannelInitializer<SocketChannel
     protected void initChannel(SocketChannel ch) throws Exception {
         ch.pipeline().addLast("http-decoder",new HttpRequestDecoder());
         ch.pipeline().addLast("http-aggregator",new HttpObjectAggregator(65336));
-        ch.pipeline().addLast("json-decoder",new HttpJsonRequestDecoder(UserVo.class));
+        ch.pipeline().addLast("api-decoder",new HttpJsonRequestDecoder(UserVo.class));
 
         ch.pipeline().addLast("http-encoder",new HttpResponseEncoder());
-        ch.pipeline().addLast("json-encoder",new HttpJsonResponseEncoder());
+        ch.pipeline().addLast("api-encoder",new HttpJsonResponseEncoder());
         ch.pipeline().addLast("handler",new HttpServerHandler());
     }
 }
